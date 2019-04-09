@@ -1,12 +1,12 @@
 import { NgModule } from "@angular/core";
-import { NativeScriptRouterModule } from "nativescript-angular/router";
 import { Routes } from "@angular/router";
+import { NativeScriptRouterModule } from "nativescript-angular/router";
 
 import { ImageSwipeComponent } from "./imageswipe/imageswipe.component";
 
 const routes: Routes = [
     { path: "", redirectTo: "/demo", pathMatch: "full" },
-    { path: "demo", component: ImageSwipeComponent },
+    { path: "demo", component: ImageSwipeComponent }
 ];
 
 @NgModule({

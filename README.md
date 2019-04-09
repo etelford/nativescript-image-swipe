@@ -33,7 +33,7 @@ String value used when hooking to pageChanged event.
 * **ios** - *[UIScrollView](https://developer.apple.com/reference/uikit/uiscrollview)*  
 Gets the native iOS view that represents the user interface for this component. Valid only when running on iOS.
 
-* **android** - *[android.support.v4.view.ViewPager](https://developer.android.com/reference/android/support/v4/view/ViewPager.html)*  
+* **android** - *[androidx.viewpager.widget.ViewPager](https://developer.android.com/reference/kotlin/androidx/viewpager/widget/ViewPager.html)*  
 Gets the native android widget that represents the user interface for this component. Valid only when running on Android OS.
 
 * **items** - *Array | ObservableArray*  
